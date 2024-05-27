@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: #f4f7fa;
+}
+
+.navbar {
+  width: 1550px;
+  height: 82px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+}
+.cart {
+  width: 30px;
+  height: 30px;
+}
+.nav_contact {
+  font: arial;
+  font-size: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.hero {
+  border-radius: 20px;
+  width: 1570px;
+  height: 918px;
+  margin: auto;
+
+  overflow: hidden;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(8, 20, 8, 0.4);
+  background-image: url(./zurag/59bfe92dcdb36ac2c2cd052f63c187cf.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 585px;
+  height: 250px;
+
+  gap: 30px;
+}
+.hero_text p {
+  font-size: 15px;
+  color: #f4f7fa;
+}
+.hero_text h1 {
+  font-size: 60px;
+  color: #f4f7fa;
+}
+.products {
+  height: 840px;
+  display: flex;
+
+  margin: auto;
+  position: relative;
+
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  width: 1110px;
+  top: -200px;
+  gap: 30px;
+}
+.product_cart {
+  width: 350px;
+  height: 406px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.cart_text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 40px;
+  gap: 20px;
+}
+.product_cart div {
+  display: flex;
+  justify-content: center;
+}
+.cart_text h5 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.cart_text h6 {
+  font-size: 17px;
+}
+/* explore */
+.explore {
+  width: 1110px;
+  height: 1160px;
+
+  margin: auto;
+
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 29px;
+  justify-content: center;
+}
+.explore_text {
+  width: 1110px;
+  height: 32px;
+}
+.explore_text h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #161c2d;
+}
+.explore_cart {
+  width: 255px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.explore_cart h5 {
+  color: #68d585;
+}
+.explore_cart h5 span {
+  color: #161c2d;
+}
+.excart_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.excart_img button {
+  width: 165px;
+  height: 45px;
+  background-color: #473bf0;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+/* contact */
+.content {
+  width: 1570px;
+  height: 770px;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 210px;
+  background: #473bf0;
+}
+.content_img {
+  width: 401px;
+  height: 482px;
+  border-radius: 10px;
+  background-image: url(/zurag/e81c7d11e2569db951575299bf9b3a58.png);
+
+  background-size: cover;
+  background-position: center;
+}
+.content_text {
+  width: 410px;
+  height: 280px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content_text h3 {
+  font-size: 36px;
+  color: #ffffff;
+}
+.content_text p {
+  font-size: 19px;
+  color: #ffffff;
+}
+.content_text button {
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #473bf0;
+  border: none;
+  width: 142px;
+  height: 32px;
+}
+.testimonial {
+  width: 1570px;
+  height: 770px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  background: #161c2d;
+}
+.monial_text {
+  width: 540px;
+  height: 389px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.monial_img {
+  width: 349px;
+  height: 463px;
+  border-radius: 10px;
+  background-image: url(/zurag/Image.png);
+  background-position: center;
+  background-size: cover;
+}
+.monial_text p {
+  font-size: 24px;
+  color: #ffffff;
+}
+.fa-quote-left {
+  font-size: 42px;
+  color: #68d585;
+}
+.fa-star {
+  color: #fcad38;
+  font-size: 19px;
+}
+.extra {
+  width: 1568px;
+  height: 792px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(8, 20, 8, 0.4);
+  background-image: url(/zurag/7de389adc3d05bcf51e5f29e04ce360d.png);
+}
+
+.extra_text {
+  width: 585px;
+  height: 237px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.extra_text h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+.extra_text button {
+  width: 200px;
+  height: 59px;
+  background-color: #68d585;
+  border-radius: 10px;
+  border: none;
+}
+/* footer */
+
+.footer {
+  width: 1601px;
+  height: 533px;
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 100px;
+}
+
+.footer_menu {
+  width: 1076px;
+  height: 246px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.footer_box {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_box p {
+  font-size: 15px;
+  color: #161c2d;
+  font-family: Arial, sans-serif;
+}
+.footer_box h4 {
+  font-size: 17px;
+  color: #161c2d;
+}
+.footer_icon {
+  width: 1111px;
+  height: 58px;
+  border-top: 2px solid black;
+
+  padding-bottom: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_box h4 {
+  line-height: 40px;
+}
+.footer_box h5 {
+  line-height: 40px;
+  font-size: 17px;
+  color: #473bf0;
+}
+.icons {
+  font-size: 19px;
+  display: flex;
+  gap: 25px;
+}
+.footer_text {
+  display: flex;
+  gap: 10px;
+}
+.fa-heart {
+  color: #68d585;
+}
